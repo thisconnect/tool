@@ -1,0 +1,32 @@
+{
+	"name": "tool"
+	, "version": "1.0.0"
+	, "author": "Enrique Erne (http://mild.ch/)"
+	, "description": "object utilities"
+	, "keywords": [
+		"object"
+		, "get"
+		, "set"
+		, "merge"
+		, "extend"
+        , "utils"
+        , "utilities"
+	]
+	, "repository": "git://github.com/thisconnect/tool.git"
+	, "homepage": "https://github.com/thisconnect/tool"
+	, "main": "./tool"
+	, "contributors": [
+		{"name": "Enrique Erne"}
+	]
+	, "devDependencies": {
+		"mocha": ">= 1.12.0"
+		, "expect.js": "0.2.0"
+	}
+	, "licenses": [{
+		"type": "MIT"
+		, "url": "https://raw.github.com/thisconnect/tool/master/license"
+	}]
+	, "bugs": {
+		"url": "https://github.com/thisconnect/tool/issues"
+	}
+}
