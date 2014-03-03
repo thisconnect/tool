@@ -2,7 +2,7 @@ var expect = require('expect.js');
 
 var merge = require('../').merge;
 
-describe('Planet Utils: Merge', function(){
+describe('Tool:merge', function(){
 
 	it('should be a function', function(){
 		expect(merge).to.be.a('function');
