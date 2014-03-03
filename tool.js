@@ -4,6 +4,8 @@ var isArray = Array.isArray || function(o){
 
 var utils = module.exports = {
 
+	version: require('./package').version,
+
 	isArray: isArray,
 
 	setCharAt: function(s, i, chars){
