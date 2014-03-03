@@ -1,8 +1,21 @@
 # Tool
 
-- Object:merge
-- Object:get
-- Object:set
+Notice: Arrays are handled as 
+
+API
+---
+
+- merge(object1, object2)
+
+- get(object, path)
+
+- set(object, path, value)
+
+- setCharAt(string, index, chars)
+
+- isArray()
+
+- version
 
 Example
 -------
