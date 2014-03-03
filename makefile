@@ -1,8 +1,10 @@
+export PATH := $(shell pwd)/node_modules/.bin/:$(PATH)
+
 REPORTER = spec # list
 
 all: test
 
 test:
-	@./node_modules/.bin/mocha --reporter $(REPORTER) ./test/*
+	@mocha --reporter $(REPORTER) ./test/*
 
 .PHONY: test
